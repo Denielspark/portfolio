@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e314b5922d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">                   
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software-Developer</p>
+                <h1>Hi, I'm <span>Hariom</span><br>Kumar from Delhi</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi myname Hariom kumar. I live in delhi , I completed my intermediate and high school studies
+                        from maharishi vidya mandir from haldwani (Uttarakhand).I have done my graduation from Graphic
+                        Era Hill University (Bhimtal) in bachlor's of technology computer engineering branch. I am a
+                        quick
+                        learner and a hardworking person.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI-UX</span><br>Designing Web-Apps Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web-Apps Interfaces</li>
+                            <li><span>Devloper</span><br>Designing Web-Apps Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023</span><br>Ms-Excel</li>
+                            <li><span>2023</span><br>Introduction to AI Metaverse from Infosys</li>
+                            <li><span>2023</span><br>Web-Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Graduation from GEU University </li>
+                            <li><span>2019</span><br>Intermediate from MVM at Haldwani</li>
+                            <li><span>2018</span><br>High School from MVM at Haldwani</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus laborum suscipit!lorem8
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI-UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus laborum suscipit!lorem8
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-address-card"></i>
+                    <h2>Poster Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus laborum suscipit!lorem8
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ portfolio----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Web Apps</h3>
+                        <p>This Online web app makes your life easier just place the order that you wish to buy
+                            from your home.The order will at your door step without going anywhere.</p>
+                        <a href="https://github.com/Denielspark/amazonclone1.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    https://script.google.com/macros/s/AKfycbxTE-5t21K-wt-RNUgZ4Pf9_fcyv6C8f08YNelIurbCld-SYqXTRBPoqaZvb38MkpbqJQ/exec
+
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>UI-UX Design</h3>
+                        <p>The experience a user would go through when interacting with a company, its services, and its
+                            products. Design decisions in UX design are often driven by research,and results.</p>
+                        <a href="https://github.com/Denielspark/website.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work.webp">
+                    <div class="layer">
+                        <h3>Business-Poster</h3>
+                        <p>Create & print your custom posters from us and get results
+                            in minutes. Free Shipping on with printing today!</p>
+                        <a href="https://www.canva.com/design/DAFhYVFbO1Q/gF3gTJGtKy4J52788_CXTQ/view?utm_content=DAFhYVFbO1Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-open"></i>hariomkumar97x@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9389472524</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/ikumarhariom?igshid=NzZlODBkYWE4Ng=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/hariom-kumar-b33b6b248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJFcezVu0SzGnxSSGCR7p%2FQ%3D%3D"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright<i class="fa-brands fa-creative-commons-by"></i>Hariom.Copyright refers to the legal right of
+                the owner of intellectual property.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablinks.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add(active - tab);
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxTE-5t21K-wt-RNUgZ4Pf9_fcyv6C8f08YNelIurbCld-SYqXTRBPoqaZvb38MkpbqJQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML=" Your Message has sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+},5000)
+form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
